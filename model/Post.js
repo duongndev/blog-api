@@ -25,11 +25,11 @@ const PostSchema = new mongoose.Schema(
       required: [true, "Author is required"],
     },
 
-    category: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Category",
-      required: [true, "post category is required"],
-    },
+    // category: {
+    //   type: mongoose.Schema.Types.ObjectId,
+    //   ref: "Category",
+    //   required: [true, "post category is required"],
+    // },
 
     numViews: [
       {
